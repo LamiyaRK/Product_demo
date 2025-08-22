@@ -6,10 +6,10 @@ It showcases authentication, protected routes, and product management features w
 ---
 
 ## 🚀 Live Demo  
-[Live Site on Vercel](https://your-vercel-link.vercel.app)  
+[Live Site on Vercel](https://furniture-fr5cv5gf5-akabane755s-projects.vercel.app/)  
 
 ## 📂 Repository  
-[GitHub Repository](https://github.com/your-username/livora)  
+[GitHub Repository](https://github.com/LamiyaRK/Product_demo)  
 
 ---
 
@@ -33,13 +33,12 @@ It showcases authentication, protected routes, and product management features w
 
 ### 👤 Authentication
 - Login with **NextAuth.js**
-  - Google OAuth or Credentials login
+  -  Credentials login
   - Successful login redirects to `/products`
 
-### ✨ Optional Enhancements
-- Loading spinner while submitting forms
+### ✨ Enhancements
 - Toast message on successful product add
-- Theme toggle (Light/Dark)
+
 
 ---
 
@@ -56,5 +55,23 @@ It showcases authentication, protected routes, and product management features w
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/livora.git
+   git clone https://github.com/LamiyaRK/Product_demo
    cd livora
+2. Install dependencies
+
+npm install
+
+
+Set up environment variables
+Create a .env.local file with:
+
+NEXTAUTH_SECRET=your_secret_key
+NEXTAUTH_URL=http://localhost:3000
+
+
+Run the development server
+
+npm run dev
+
+
+Visit the app at: http://localhost:3000
