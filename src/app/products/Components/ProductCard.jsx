@@ -12,7 +12,7 @@ export default function ProductCard({da}) {
         height={400}
         width={400}
         alt={product_name}
-        className='h-full object-cover object-center bg-gray-50 rounded-lg p-2'
+        className='h-full w-full object-cover object-center bg-gray-50 rounded-lg p-2'
         />
         </div>
        

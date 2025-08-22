@@ -51,7 +51,7 @@ function Fade() {
             />
             {/* Overlay text */}
             <div className="absolute inset-0 bg-black/40    text-white p-6">
-            <div className="w-[40%] relative top-[30%] left-[10%] space-y-4">
+            <div className="w-[80%] md:w-[60%] lg:w-[40%] relative top-[30%] left-[10%] space-y-4">
             <p className="badge bg-transparent text-white"> Furnishing Dreams</p>
               <h2 className="text-3xl md:text-6xl font-bold mb-2">
                 {da.title}

@@ -12,7 +12,7 @@ product_code,availability,image
 }=data
   return (
     <div className='w-5/6 mx-auto max-w-7xl my-20'>
-    <div className='grid grid-cols-2 items-center gap-5'> 
+    <div className='grid lg:grid-cols-2 items-center gap-5'> 
        <div className='h-[600px] '>
         <Image
             src={image}

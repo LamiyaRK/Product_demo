@@ -37,7 +37,7 @@ export default function ProductForm() {
       email: session?.user?.email,
     };
 
-    const response = await fetch("https://furniture-ivory-nine.vercel.app/api/products", {
+    const response = await fetch("/api/products", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
